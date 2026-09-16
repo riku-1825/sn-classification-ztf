@@ -7,7 +7,6 @@ data/*.h5
 data/raw/
 figures/*.png
 figures/*.json
-figures_real/
 logs/
 .env
 *.egg-info/
