@@ -5,7 +5,6 @@ data/*.json
 data/*.csv
 data/*.h5
 data/raw/
-figures/*.png
 figures/*.json
 logs/
 .env
