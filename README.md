@@ -21,8 +21,6 @@ This repository builds and rigorously evaluates a compact, reproducible **three-
 
 using a **synthetic dataset** for end-to-end pipeline validation and **four real, ALeRCE-sourced ZTF catalogues** (curated, naturally-imbalanced, expanded, and multi-seed) for the main study. The project also includes an early-epoch ablation (how classification quality degrades with light-curve length), class-weighting and cadence-interpolation ablations, and an entropy-based confidence/anomaly-flagging prototype.
 
-The full write-up, methodology, and discussion are in [`Report/SNC_Report.pdf`](./Report/SNC_Report.pdf).
-
 ---
 
 ## The Visual
