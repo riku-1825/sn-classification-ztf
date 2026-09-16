@@ -1,0 +1,15 @@
+{
+  "grid_step_days": 1.0,
+  "results": {
+    "raw": {
+      "macro_f1": 0.9851851851851853,
+      "n_test": 68
+    },
+    "interpolated": {
+      "macro_f1": 0.9851851851851853,
+      "n_test": 68
+    }
+  },
+  "macro_f1_delta_interpolated_minus_raw": 0.0,
+  "verdict": "negligible difference"
+}

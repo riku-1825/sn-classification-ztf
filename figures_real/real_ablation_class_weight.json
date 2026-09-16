@@ -1,0 +1,27 @@
+{
+  "class_distribution": {
+    "Ibc": 150,
+    "Ia": 150,
+    "II": 150
+  },
+  "imbalance_ratio": 1.0,
+  "results": {
+    "unweighted": {
+      "macro_f1": 0.9851851851851853,
+      "per_class_recall": {
+        "II": 1.0,
+        "Ia": 1.0,
+        "Ibc": 0.9565217391304348
+      }
+    },
+    "balanced": {
+      "macro_f1": 0.9851851851851853,
+      "per_class_recall": {
+        "II": 1.0,
+        "Ia": 1.0,
+        "Ibc": 0.9565217391304348
+      }
+    }
+  },
+  "macro_f1_delta_balanced_minus_unweighted": 0.0
+}

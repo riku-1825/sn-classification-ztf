@@ -1,0 +1,51 @@
+[
+  {
+    "cutoff_days": 3,
+    "n_train": 159,
+    "n_val": 32,
+    "n_test": 36,
+    "macro_f1": 0.6527777777777778
+  },
+  {
+    "cutoff_days": 7,
+    "n_train": 269,
+    "n_val": 59,
+    "n_test": 63,
+    "macro_f1": 0.6017189314750291
+  },
+  {
+    "cutoff_days": 14,
+    "n_train": 296,
+    "n_val": 64,
+    "n_test": 67,
+    "macro_f1": 0.7410667149343109
+  },
+  {
+    "cutoff_days": 21,
+    "n_train": 302,
+    "n_val": 65,
+    "n_test": 67,
+    "macro_f1": 0.7969042689539584
+  },
+  {
+    "cutoff_days": 30,
+    "n_train": 309,
+    "n_val": 65,
+    "n_test": 67,
+    "macro_f1": 0.8793576537267779
+  },
+  {
+    "cutoff_days": 60,
+    "n_train": 311,
+    "n_val": 67,
+    "n_test": 67,
+    "macro_f1": 0.939348957161921
+  },
+  {
+    "cutoff_days": 9999,
+    "n_train": 315,
+    "n_val": 67,
+    "n_test": 68,
+    "macro_f1": 0.9851851851851853
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "threshold": 0.6182713508605957,
+  "anomaly_percentile": 90,
+  "check1_correctness_confidence_correlation": {
+    "auc_entropy_vs_is_error": 0.8521954236239951,
+    "n_test": 158,
+    "n_errors": 11,
+    "error_rate_among_flagged": 0.25,
+    "error_rate_among_unflagged": 0.04929577464788732
+  },
+  "check2_synthetic_ood_injection": {
+    "n_ood_objects": 50,
+    "ood_flag_rate": 0.94,
+    "normal_test_flag_rate": 0.10126582278481013,
+    "note": "OOD objects are synthetic pure-noise light curves, a proxy for 'genuinely anomalous', NOT real astrophysical anomalies. See module docstring for scope."
+  }
+}
