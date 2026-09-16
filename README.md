@@ -279,7 +279,6 @@ Class weighting had **no measurable effect**, even under genuine 2.66× real-wor
 - **Results are stable** across 8 random seeds, a naturally-imbalanced catalogue, and a 3×-larger sample (1,050 vs. 450 objects) — the curated single-split result was not an artefact of a favourable split.
 - **Errors concentrate in the Ia ↔ Ib/c confusion** on real data, physically expected since both are compact, rapidly-declining transients, whereas the slower, plateau-featured Type II is more distinct.
 - **The entropy-based confidence/anomaly-flagging prototype works as a screening signal** (ROC-AUC 0.85 for predicting misclassification; 94% of injected synthetic out-of-distribution objects flagged), though it has only been validated against synthetic noise as an OOD proxy, not real astrophysical anomalies.
-- Overall, the study is read as a **rigorous proof-of-concept** for ZTF-based, LSST-schema-compatible photometric SN typing — not an operational or spectroscopically-validated classification system.
 
 ---
 
