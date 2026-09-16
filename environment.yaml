@@ -1,0 +1,46 @@
+name: sn-classification-ztf
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pyyaml
+  - requests
+  - astropy
+  - h5py
+  - pip:
+      # --- Deep learning: PyTorch build for CUDA 12.4 wheels ---
+      # Your driver (590.44.01, CUDA 13.1) is backward compatible with
+      # CUDA 12.x runtime wheels, so cu124 wheels will work correctly
+      # on the RTX PRO 5000 Blackwell (48GB VRAM). If a native cu13x
+      # wheel is available on pytorch.org by the time you install,
+      # prefer that instead — check https://pytorch.org/get-started/locally/
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch
+      - torchvision
+      - torchaudio
+      # --- Gradient boosting baseline ---
+      - lightgbm
+      # --- Astronomy / time-domain tools ---
+      - fink-client
+      - lightkurve
+      # --- Real ZTF data via the ALeRCE public broker API ---
+      - alerce
+      # --- Anomaly / dimensionality reduction for figures ---
+      - umap-learn
+      # --- Optional: Gaussian-Process light-curve smoothing ---
+      - george
+      # --- Testing ---
+      - pytest

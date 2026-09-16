@@ -1,0 +1,47 @@
+{
+  "run_name": "real_expanded_350",
+  "data_path": "data/ztf_real_objects.json",
+  "n_objects_used": 1050,
+  "class_distribution": {
+    "Ibc": 350,
+    "Ia": 350,
+    "II": 350
+  },
+  "majority_class_baseline": {
+    "class": "II",
+    "accuracy": 0.3291139240506329,
+    "macro_f1": 0.16507936507936508
+  },
+  "lightgbm_macro_f1": 0.9560640214866635,
+  "gru_macro_f1": 0.8929608127721336,
+  "device": "cuda",
+  "anomaly_threshold_val_p90_entropy": 0.667188286781311,
+  "anomaly_flagged_n": 11,
+  "anomaly_flagged_total": 158,
+  "accuracy_vs_length": {
+    "[0,5)": {
+      "accuracy": 0.9583333333333334,
+      "n": 24,
+      "ci_95_lo": 0.7975777375115778,
+      "ci_95_hi": 0.992606734645195
+    },
+    "[5,10)": {
+      "accuracy": 0.8,
+      "n": 60,
+      "ci_95_lo": 0.6821795390818299,
+      "ci_95_hi": 0.8817161026314104
+    },
+    "[10,20)": {
+      "accuracy": 0.9183673469387755,
+      "n": 49,
+      "ci_95_lo": 0.8081061295851387,
+      "ci_95_hi": 0.9677977037582878
+    },
+    "[20,40)": {
+      "accuracy": 1.0,
+      "n": 23,
+      "ci_95_lo": 0.8568788745827374,
+      "ci_95_hi": 1.0
+    }
+  }
+}
