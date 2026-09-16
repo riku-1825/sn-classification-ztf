@@ -171,13 +171,13 @@ All driver scripts live in `scripts/` and are numbered in the order you'd typica
 | `fetch_real_data.py` | Standalone ALeRCE real-data fetcher; supports `--balance_mode curated/natural` and `--total_budget`/`--n_per_class`. |
 | `data/generate_synthetic_data.py` | Standalone synthetic light-curve generator. |
 
-**Example — full real-data run from scratch:**
+**Full real-data run from scratch:**
 
 ```bash
 bash scripts/00_setup_env.sh
 conda activate sn-classification-ztf
 bash scripts/01_run_tests.sh
-bash scripts/07_run_all_real.sh          # fetch + train/evaluate on curated real ZTF data
+bash scripts/07_run_all_real.sh       
 bash scripts/12_run_all_analysis.sh data/ztf_real_objects.json figures_real real
 bash scripts/13_multiseed_eval.sh data/ztf_real_objects.json figures_real real 8
 bash scripts/14_validate_anomaly.sh data/ztf_real_objects.json figures_real real
@@ -309,10 +309,7 @@ If you use this repository, its code, or its results in your work, please cite:
   title        = {Photometric Classification of Supernova Subtypes from ZTF Light Curves:
                    A LightGBM--GRU Comparison with LSST-Compatible Preprocessing},
   author       = {Bagh, Bhoumik Chandra},
-  institution  = {Indian Institute of Technology Tirupati},
   year         = {2026},
-  note         = {Summer School of Astronomy \& Astrophysics 2026 Project Report,
-                   submitted to Ravi Raja Pothineni, Indian Space School, Jaipur},
   howpublished = {\url{https://github.com/riku-1825/sn-classification-ztf}}
 }
 ```
