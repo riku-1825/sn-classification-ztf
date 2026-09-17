@@ -51,10 +51,8 @@ using a **synthetic dataset** for end-to-end pipeline validation and **four real
 
 ```
 sn-classification-ztf/
-├── Pictures/                       # Static images used in this README
+├── Pictures/                       
 │   └── SNC_Visual.jpg
-├── Report/                         # Full project report
-│   └── SNC_Report.pdf
 ├── data/
 │   ├── download_data.py            # Entry point / router for data acquisition routes
 │   ├── generate_synthetic_data.py  # Seeded synthetic light-curve generator
